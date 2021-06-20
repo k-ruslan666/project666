@@ -1,3 +1,4 @@
 function btnClick (){
-    window.getElementById("clicker").innerHTML = "<h1> home page</h1>"
+    p = document.getElementById("clickInner") 
+    p.innerHTML = "<h1> home page</h1>"
 }
